@@ -70,3 +70,25 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.Image-text {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .gen-form {
+        flex-direction: column;
+    }
+
+    .gen-form input[type="text"] {
+        width: 300px;
+    }
+
+    .gen-form button {
+        width: 43%;
+    }
+
+    .button-download {
+        width: 43%;
+    }
+}

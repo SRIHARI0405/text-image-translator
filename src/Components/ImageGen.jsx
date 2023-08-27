@@ -28,6 +28,7 @@ const ImageGenerator = () => {
     }
     return (
         <div className="container">
+            <h1 className="Image-text">Text to Image Translator</h1>
             <form onSubmit={handleSubmit} className="gen-form">
                 <input
                     type='text'
