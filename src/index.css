@@ -1,0 +1,72 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.al-c {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.gen-form {
+    display: flex;
+    max-width: 100%;
+    height: max-content;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    font-size: 13px;
+}
+
+.gen-form input[type="text"] {
+    margin: 20px;
+    padding: 10px;
+    flex: 1;
+    color: #333;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(92, 91, 91, 0.3);
+}
+
+.gen-form button {
+    background-color: rgb(58, 59, 58);
+    color: white;
+    width: 14%;
+    height: 38px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result-image {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
+    margin: 10px auto;
+    border-radius: 14px;
+    overflow: hidden;
+    align-items: center;
+    padding: 3px;
+}
+
+.result-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.button-download {
+    background-color: rgb(14, 16, 14);
+    color: white;
+    width: 14%;
+    height: 38px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
